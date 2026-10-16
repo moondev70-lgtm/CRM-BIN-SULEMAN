@@ -1,6 +1,6 @@
 import { createBrowserClient } from '@supabase/ssr';
 import type { SupabaseClient } from '@supabase/supabase-js';
-import { SUPABASE_URL, SUPABASE_ANON_KEY } from './config';
+import { SUPABASE_URL, SUPABASE_ANON_KEY, isSupabaseConfigured } from './config';
 
 /** Re-exported from config so browser-only helpers are always in one place. */
 export { isSupabaseConfigured } from './config';
