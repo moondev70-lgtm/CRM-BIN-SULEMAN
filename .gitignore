@@ -25,4 +25,5 @@
 # logs
 npm-debug.log*
 *.log
+crm-probe/
 out.txt
